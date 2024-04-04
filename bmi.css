@@ -1,0 +1,98 @@
+#main{
+    background-color: rgb(213, 220, 227);
+    margin:10px auto;
+    width: 600px;
+    height: 660px;
+    border-radius: 100px; 
+    padding: 10px;
+    text-align: center;
+}
+#choose{
+   width:200px;
+   font-size: 24px;
+   font-weight: 600;
+   padding: 10px;
+   border-radius:10px;
+   background-color: rgb(213, 220, 227);
+   margin-bottom: 70px;
+   border: 2px solid;
+   display: none;
+}
+.option{
+    border:none ;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 5px;
+}
+#choose-option{
+   width:200px;
+   font-size: 22px;
+   font-weight: 500;
+   padding: 10px;
+   border-radius:10px;
+   background-color: rgb(213, 220, 227);
+   
+}
+#height-input,#height-input-decimal{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 2px 20px;  
+    
+}
+#weight-input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 2px 20px;
+}
+#submit{
+    margin-top: 30px ;
+    margin-right: 30px;
+    width: 150px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: rgb(20, 86, 185);
+    color: whitesmoke;
+}
+#restart{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 150px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: rgb(234, 93, 17);
+    color: whitesmoke;
+}
+#height-unit,#weight-unit{
+    color: orangered;
+    
+}
+#h-doi{
+    margin-top: 90px;
+    font-size: 22px;
+}
+#text{
+    color: orangered;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+#alert{
+    color: orangered;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+#result{
+    color: orangered;
+    font-size: 28px;
+}
+#h2{
+    margin-right: 70px;
+    font-size: 28px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <title>BMI Calculator</title>
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+        <link href="bmi.css" rel="stylesheet">       
+        </head>
+    <body>  
+        <div id="main">  
+            <h1 id="h">BMI Calculator:</h1>  
+            <div id="empty"></div>
+            <!-- <ul id="drop-menu">       
+                    <li id="metric-li" class="drop-li">Metric</li>
+                    <li id="imperial-li"  class="drop-li">Imperial</li>  
+                </ul> <div id="choose-drop"> <i class="ri-arrow-down-s-fill"></i>  </div>
+           
+                <select id="choose" onchange="changeUnits()" >
+                    <option class="option">Choose units</option>
+                    <option value="Metric" class="option">Metric</option>
+                    <option value="Imperial"  class="option">Imperial</option>
+                </select>-->
+            <div>
+                <h2 id="h-doi">Insert your height in: <span id="height-unit">( m & cm)</span></h2>
+                <input id="height-input" type=" number" placeholder="height" maxlength="1" />
+                <input id="height-input-decimal" type=" number" placeholder="height" maxlength="2" />
+            </div>
+            <div>
+                <h2>Insert your weight in: <span id="weight-unit">( kg )</span></h2>
+                <input id="weight-input" type=" number" placeholder="weight" maxlength="3" />
+            </div>
+            <div id="alert"></div>
+            <div>
+                <button id="submit" >Calculate</button>
+                <button id="restart" onclick="restart()">Restart</button>
+            </div>
+            <h2 id="h2">Your BMI is: <span  id="result"></span></h2>
+            <div id="text"></div>
+           
+        </div>
+        <script src ="C:\IT\BMICalculator\bmi.js"></script>             
+    </body>
+   
+</html>
